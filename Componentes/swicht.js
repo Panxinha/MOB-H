@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { View, Text, Switch } from 'react-native';
-import { ContextoTema } from '../tema/ContextoTema';
+import { ContextoTema } from '../tema/tema';
 
 export default function InterruptorModo() {
   const { oscuro, setOscuro } = useContext(ContextoTema);

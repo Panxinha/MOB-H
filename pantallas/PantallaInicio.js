@@ -1,8 +1,8 @@
 import React, { useContext, useState } from 'react';
 import { View, Text, TextInput, ImageBackground, StyleSheet } from 'react-native';
-import VistaAparecer from '../Componentes/VistaAparecer';
-import BotonAnimado from '../Componentes/BotonAnimado';
-import { ContextoTema } from '../tema/ContextoTema';
+import VistaAparecer from '../Componentes/animacion';
+import BotonAnimado from '../Componentes/boton';
+import { ContextoTema } from '../tema/tema';
 import { obtenerSaludoPorHora } from '../utilidades/utilidades';
 
 export default function PantallaInicio({ navigation }) {

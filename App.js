@@ -3,10 +3,10 @@ import { NavigationContainer, DefaultTheme, DarkTheme } from '@react-navigation/
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
-import { ProveedorTema } from './tema/ContextoTema';
+import { ProveedorTema } from './tema/tema';
 import PantallaInicio from './pantallas/PantallaInicio';
 import PantallaEjercicios from './pantallas/PantallaEjercicios';
-import InterruptorModo from './Componentes/InterruptorModo';
+import InterruptorModo from './Componentes/swicht';
 
 const Pila = createNativeStackNavigator();
 
